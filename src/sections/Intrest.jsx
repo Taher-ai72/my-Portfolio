@@ -11,7 +11,7 @@ const Intrest = () => {
 
  
   return (
-    <section className='c-space my-20 ' >
+    <section className='c-space my-20 overflow-hidden' >
         <div className='w-full text-white-600'>
             <h3 className='head-text'> My Work intrest </h3>
             <div className=' work-container'>

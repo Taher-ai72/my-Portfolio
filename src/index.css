@@ -11,6 +11,10 @@
 body {
   background: #f7b4a7;
   font-family: 'General Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%;
 }
 
 @layer utilities {

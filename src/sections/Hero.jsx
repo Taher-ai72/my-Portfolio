@@ -47,9 +47,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="min-h-screen w-full flex flex-col relative" id="home">
-      <div className="  w-full mx-auto flex flex-col sm:mt-36  c-space gap-3 ">
-        <p className=" relative hero_tag text-[#f5f7f7]  ">
+    <section className="min-h-screen w-full flex flex-col relative overflow-hidden" id="home">
+      <div className="  w-full mx-auto flex flex-col sm:mt-36 mt-36 c-space gap-3 ">
+        <p className=" relative hero_tag text-[#f5f7f7] bottom-10 ">
           Let's Connect Together
         </p>
         <p className=" hero_para sm:text-3xl text-xl font-medium text-black text-center font-generalsans">Creative & 3D Web Developer. I provide my expertise to brands, helping them grow online with 3D graphics and videos.

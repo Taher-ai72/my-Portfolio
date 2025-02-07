@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { navLinks } from '../constants/index.js';
 
 const NavItems = ({ onClick = () => {} }) => (
-  <ul className="nav-ul">
+  <ul className="nav-ul overflow-hidden">
     {navLinks.map((item) => (
       <li key={item.id} className="nav-li">
         <a href={item.href} className="nav-li_a" onClick={onClick}>
