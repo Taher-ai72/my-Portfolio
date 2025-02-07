@@ -48,8 +48,8 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
-      <div className="  w-full mx-auto flex flex-col sm:mt-36 mt-70 c-space gap-3 ">
-        <p className=" relative hero_tag text-[#f5f7f7] mt-15 ">
+      <div className="  w-full mx-auto flex flex-col sm:mt-36  c-space gap-3 ">
+        <p className=" relative hero_tag text-[#f5f7f7]  ">
           Let's Connect Together
         </p>
         <p className=" hero_para sm:text-3xl text-xl font-medium text-black text-center font-generalsans">Creative & 3D Web Developer. I provide my expertise to brands, helping them grow online with 3D graphics and videos.
@@ -74,7 +74,7 @@ const Hero = () => {
         </Canvas>
       </div>
       
-      <div className="absolute bottom-50 left-0 right-0 w-full z-10 c-space">
+      <div className="absolute bottom-0 left-0 right-0 w-full z-10 c-space">
         <a href="#about" className="w-fit">
           <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96 bg-[#8db6b6]" />
         </a>
