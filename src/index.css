@@ -74,7 +74,7 @@ body {
   }
 
   .grid-subtext {
-    @apply text-[#8db6b6] text-base ;
+    @apply text-[#000000] text-base ;
   }
 
   .copy-container {
